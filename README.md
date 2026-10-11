@@ -7,6 +7,8 @@ prompts, missions, and journal entries never leave your device.
 
 Built for the **Hacktoberfest "Touch Grass" challenge**.
 
+**Live demo:** https://trailmate-ai-ypcf.onrender.com (deployed on Render)
+
 > **First visit needs the internet.** The website is a static app, but the local
 > AI model (a few hundred MB) is downloaded **once** from the open model CDN and
 > cached by the browser. After that first download TrailMate works fully offline.
@@ -131,6 +133,8 @@ A `render.yaml` Blueprint is included.
 2. In Render: **New + → Blueprint**, then pick the repo.
 3. Render runs `npm ci && npm run build`, publishes `./dist`, and applies the
    SPA rewrite and cache headers from the Blueprint automatically.
+
+This project's live deployment: **https://trailmate-ai-ypcf.onrender.com**
 
 ### Vercel
 
